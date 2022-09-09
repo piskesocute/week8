@@ -1,0 +1,45 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: login
+---
+
+<header class="bg-white login">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="header-img d-none d-lg-block col-lg-5"></div>
+
+      <div class="col-12 col-lg-7 bg-white login-box">
+        <div class="">
+          <h2 class="mb-7 mb-md-60">登入</h2>
+          <form>
+            <div class="mb-4">
+              <label for="exampleInputEmail1" class="form-label">電子信箱</label>
+              <input type="email" class="form-control" placeholder="exampleInputEmail1" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label">密碼</label>
+              <input type="password" class="form-control" placeholder="請輸入密碼" id="exampleInputPassword1">
+              <a class="d-block mt-1" href="#">忘記密碼</a>
+            </div>
+
+            <div class="mb-7 form-check">
+              <label class="form-check-label" for="exampleCheck1">記住我的帳號</label>
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            </div>
+            <div class="social-login d-flex flex-wrap flex-lg-nowrap justify-content-around align-items-center gap-2 mt-8">
+              <button type="submit" class="btn btn-outline-secondary w-100 w-lg-50 py-3 py-lg-1">
+                <img class="" src="./assets/images/facebook.svg" alt="">facebook</button>
+              <button type="submit" class="btn btn-outline-secondary w-100 w-lg-50 py-3 py-lg-1">
+                <img class="social-login-icon" src="./assets/images/google.svg" alt="">Google
+              </button>
+            </div>
+            <button type="submit" class="mt-8 btn btn-org text-white d-block login-btn w-100 w-lg-auto">登入</button>
+            <a class=" d-block mt-2" href="#">還沒註冊嗎?</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,31 @@
+.nav-block{
+  width: 48px;
+  height: 48px;
+}
+
+.logo-img {
+  background-image: url("../images/logo.svg");
+  background-position:  center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 122px;
+  height: 54px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.navbar-ham{
+padding: 12px 6px 12px 6px;
+border: 0px;
+}
+.navbar-icon{
+  background-color: #F8B52E;
+  width: 36px;
+  height: 3px;
+}
+.navbar-toggler:focus{
+  box-shadow: 0 0 3px  #F8B52E;
+}
+
+

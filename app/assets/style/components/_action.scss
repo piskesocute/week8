@@ -1,0 +1,126 @@
+.action-btn1{
+  width: 350px;
+  padding-top: 350px;
+  background-image: url('../images/index-5.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 4px;
+  @include pad{
+    width: 210px;
+    padding-top: 210px;
+  }
+  @include mobile{
+    width: 100%;
+    padding-top: 132px;
+  }
+}
+.action-text{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.action-btn-shodow{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba($color: #000000, $alpha: 0.6);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.action-btn2{
+  width: 303px;
+  padding-top: 350px;
+  background-image: url('../images/index-6.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 4px;
+  @include pad{
+    width: 182px;
+    padding-top: 210px;
+  }
+  @include mobile{
+    width: 100%;
+    padding-top: 132px;
+  }
+}
+.action-btn3-box{
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  @include pad{
+    width: 160px;
+  }
+  @include mobile{
+    width: 100%;
+  }
+}
+.action-btn3-1{
+  width: 100%;
+  padding-top: 172px;
+  background-image: url('../images/index-7.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 4px;
+  @include pad{
+    padding-top: 103px;
+  }
+  @include mobile{
+    padding-top: 132px;
+  }
+
+}
+.action-btn3-2{
+  width: 100%;
+  padding-top: 172px;
+  background-image: url('../images/index-8.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 4px;
+  @include pad{
+    padding-top: 103px;
+  }
+  @include mobile{
+    margin-top: 8px;
+    padding-top: 132px;
+  }
+}
+.action-btn4{
+  width: 200px;
+  padding-top: 172px;
+  background-image: url('../images/index-3.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 4px;
+  @include pad{
+    width: 125px;
+    padding-top: 210px;
+  }
+  @include mobile{
+    width: 100%;
+    padding-top: 132px;
+  }
+
+}

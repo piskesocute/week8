@@ -1,0 +1,10 @@
+.login-box{
+
+  @include pad{
+    margin-top: 70px;
+    padding-top: 64px;
+  }
+}
+.login-btn{
+  padding: 9px 108px;
+}
