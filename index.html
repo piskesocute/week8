@@ -1,10 +1,56 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Boostrap Index
+  </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+    <div class="container-lg d-flex justify-content-between align-items-center">
+      <!-- logo -->
+      <div class="nav-block d-block d-lg-none "></div>
+      <h1 class="mb-0">
+        <a class="logo-img " href="/index.html">PETPET</a>
+      </h1>
+      
+      <!-- 三明治 -->
+      <button class="navbar-toggler navbar-ham" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar-icon"></div>
+        <div class="navbar-icon my-2"></div>
+        <div class="navbar-icon"></div>
+      </button>
+      <!-- 選單 -->
+      <div class="collapse w-100 navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link text-brown " href="#">預約服務</a>
+          </li>
+          <li class="nav-item mx-md-8">
+            <a class="nav-link text-brown" href="#" >
+              成為寵物保姆
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-brown"  href="/login.html">登入</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
 <header class="bg-white header">
   <div class="container-fluid">
     <div class="row align-items-center">
@@ -397,3 +443,10 @@ current: index
     </div>
   </div>
 </footer>
+
+  
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
